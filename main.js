@@ -40,3 +40,9 @@ document.getElementById("languageInput").addEventListener("input", () => {
     let language_string = `You like ${answer}. That takes ${count} characters.`;
     document.getElementById("insightsOutput").innerText = language_string;
 });
+
+document.getElementById("numberInput").addEventListener("input",()=>{
+    let answer = document.getElementById("numberInput").value;
+    let number_string = ${answer} 'years. That is great!';
+    document.getElementById("insightsOutput").innerText = number_string;
+});
