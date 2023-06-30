@@ -43,6 +43,5 @@ document.getElementById("languageInput").addEventListener("input", () => {
 
 document.getElementById("numberInput").addEventListener("input",()=>{
     let years1 = document.getElementById("numberInput").value;
-    let number_string = ${yeears1}; 
     document.getElementById("numberOutput").innerText = number_string;
 });
