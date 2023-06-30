@@ -42,7 +42,7 @@ document.getElementById("languageInput").addEventListener("input", () => {
 });
 
 document.getElementById("numberInput").addEventListener("input",()=>{
-    let answer = document.getElementById("numberInput").value;
-    let number_string = ${answer} 'years. That is great!';
+    let number = document.getElementById("numberInput").value;
+    let number_string = ${number} 'years. That is great!';
     document.getElementById("insightsOutput").innerText = number_string;
 });
