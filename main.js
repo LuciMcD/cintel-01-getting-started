@@ -41,7 +41,6 @@ document.getElementById("languageInput").addEventListener("input", () => {
     document.getElementById("insightsOutput").innerText = language_string;
 });
 
-document.getElementById("numberInput").addEventListener("input",()=>{
-    let years1 = document.getElementById("numberInput").value;
+document.getElementById("numberInput").addEventListener("input", () => {
     document.getElementById("numberOutput").innerText = number_string;
 });
