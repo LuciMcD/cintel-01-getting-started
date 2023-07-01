@@ -41,8 +41,4 @@ document.getElementById("languageInput").addEventListener("input", () => {
     document.getElementById("insightsOutput").innerText = language_string;
 });
 
-document.getElementById("numberInput").addEventListener("input", () => {
-    let digit = document.getElementById("numberInput").value;
-    let number_string = ${digit};
-        document.getElementById("numberOutput").innerText = number_string;
-    });
+
